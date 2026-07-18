@@ -2,7 +2,7 @@
   <img src="docs/image/banner.png" width="100%">
 </p>
 
-# 🏡 California House Price Prediction# 🏡 California House Price Prediction
+# 🏡 California House Price Prediction
 
 An end-to-end Machine Learning application that predicts California housing prices using the **XGBoost Regression** algorithm. The project demonstrates a complete supervised machine learning workflow—from data preprocessing and feature engineering to model training, evaluation, explainability with SHAP, and deployment through an interactive Streamlit web application.
 
@@ -13,6 +13,10 @@ Rather than focusing only on prediction accuracy, the project also emphasizes **
 This repository serves as a practical demonstration of developing, organizing, and deploying a machine learning application using modern Python-based tools and libraries.
 
 ---
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![XGBoost](https://img.shields.io/badge/XGBoost-Regression-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 # ✨ Key Features
 
@@ -187,6 +191,20 @@ The trained XGBoost Regression model was evaluated using standard regression met
 | RMSE | XX.XX |
 | MAE | XX.XX |
 
+# 📷 Application Preview
+
+## Dashboard
+
+<p align="center">
+<img src="docs/image/feature_importance.png" width="90%">
+</p>
+
+## SHAP Explainability
+
+<p align="center">
+<img src="docs/image/shap_summary.png" width="90%">
+</p>
+
 ## Evaluation Metrics
 
 ### R² Score
@@ -238,6 +256,22 @@ HousePricePrediction/
 ├── LICENSE
 └── .gitignore
 ```
+# ⚙️ Installation
+
+```bash
+git clone https://github.com/dharvi120/California-House-Price-Prediction.git
+
+cd California-House-Price-Prediction
+
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+streamlit run app.py
+```
 
 ## Repository Organization
 
@@ -250,3 +284,24 @@ HousePricePrediction/
 - **notebooks/** – Exploratory Data Analysis (EDA) notebook.
 - **app.py** – Streamlit application entry point.
 - **train.py** – Model training script.
+
+- # 🚀 Future Improvements
+
+- Docker support
+- FastAPI inference service
+- CI/CD pipeline
+- Model versioning
+- Cloud deployment
+- Experiment tracking with MLflow
+- Real-time monitoring
+
+- # 👨‍💻 Author
+
+**Dharvi**
+
+GitHub: https://github.com/dharvi120
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
