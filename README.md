@@ -1,4 +1,8 @@
-# 🏡 California House Price Prediction
+<p align="center">
+  <img src="docs/image/banner.png" width="100%">
+</p>
+
+# 🏡 California House Price Prediction# 🏡 California House Price Prediction
 
 An end-to-end Machine Learning application that predicts California housing prices using the **XGBoost Regression** algorithm. The project demonstrates a complete supervised machine learning workflow—from data preprocessing and feature engineering to model training, evaluation, explainability with SHAP, and deployment through an interactive Streamlit web application.
 
@@ -208,42 +212,24 @@ HousePricePrediction/
 │
 ├── assets/
 │   ├── css/
-│   └── images/
+│   │   └── style.css
+│   └── image/
+│       ├── background.jpg
+│       ├── hero.png
+│       └── logo.png
 │
 ├── configs/
-│   └── config.py
-│
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
-│
 ├── docs/
-│   └── images/
+│   └── image/
+│       ├── banner.png
+│       ├── feature_importance.png
+│       └── shap_summary.png
 │
 ├── logs/
-│
 ├── models/
-│   ├── xgboost_model.pkl
-│   ├── scaler.pkl
-│   ├── columns.pkl
-│   └── metrics.json
-│
 ├── notebooks/
-│   └── 01_eda.ipynb
-│
-├── pages/
-│
-├── reports/
-│
-├── src/
-│   ├── load_model.py
-│   ├── predict.py
-│   ├── plots.py
-│   ├── shap_utils.py
-│   └── utils.py
-│
-├── tests/
+│   └── exploratory_data_analysis.ipynb
 │
 ├── app.py
 ├── train.py
@@ -255,14 +241,12 @@ HousePricePrediction/
 
 ## Repository Organization
 
-- **assets/** – Static resources such as images, icons, and CSS.
-- **configs/** – Application configuration and project constants.
-- **data/** – Raw, processed, and external datasets.
-- **docs/** – Documentation assets used in the README.
-- **logs/** – Runtime log files.
-- **models/** – Serialized machine learning models and preprocessing artifacts.
-- **notebooks/** – Exploratory data analysis and experimentation notebooks.
-- **pages/** – Additional Streamlit pages.
-- **reports/** – Generated reports and evaluation outputs.
-- **src/** – Core application logic including prediction, visualization, and utility modules.
-- **tests/** – Unit and integration tests.
+- **assets/** – CSS styles and project images.
+- **configs/** – Configuration files for the application.
+- **data/** – Dataset used for model training and evaluation.
+- **docs/** – Images and assets referenced in the README.
+- **logs/** – Application log files.
+- **models/** – Saved model artifacts and evaluation metrics.
+- **notebooks/** – Exploratory Data Analysis (EDA) notebook.
+- **app.py** – Streamlit application entry point.
+- **train.py** – Model training script.
