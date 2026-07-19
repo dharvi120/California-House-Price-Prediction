@@ -5,7 +5,7 @@
 ## 🚀 Live Demo
 
 🌐 Streamlit App:
-https://your-streamlit-url.streamlit.app
+https://california-house-price-prediction-pyfhserhhfmck7cjnjqvxn.streamlit.app/
 
 📂 GitHub Repository:
 https://github.com/dharvi120/California-House-Price-Prediction
