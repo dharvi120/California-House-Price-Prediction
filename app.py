@@ -52,7 +52,7 @@ def load_css(file_name):
             unsafe_allow_html=True
         )
 
-load_css("assets/css/style.css")
+load_css("C:\Users\dhasu\Downloads\style.css")
 
 
 
