@@ -436,7 +436,10 @@ st.markdown("""
 col1,col2,col3=st.columns([1,5,1])
 
 with col2:
-    st.image("docs/images/shap_summary.png", width=900)
+    from PIL import Image
+
+    img = Image.open("docs/image/shap_summary.png")
+    st.image(img, width=900)
 
     st.markdown("""
 
