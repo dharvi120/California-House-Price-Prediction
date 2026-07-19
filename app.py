@@ -438,7 +438,6 @@ col1,col2,col3=st.columns([1,5,1])
 with col2:
 st.image("docs/images/shap_summary.png", width=900)
 
-    )
     st.markdown("""
 
 <div class="glass-card">
