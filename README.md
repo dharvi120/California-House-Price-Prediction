@@ -197,7 +197,7 @@ The trained XGBoost Regression model was evaluated using standard regression met
 ## Dashboard
 
 <p align="center">
-<img src="docs/image/feature_importance.png" width="90%">
+<img src="docs/image/image.png" width="90%">
 </p>
 
 ## SHAP Explainability
