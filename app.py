@@ -436,12 +436,7 @@ st.markdown("""
 col1,col2,col3=st.columns([1,5,1])
 
 with col2:
-
-    st.image(
-
-        "screenshots/shap_summary.png",
-
-        width=900
+st.image("docs/images/shap_summary.png", width=900)
 
     )
     st.markdown("""
