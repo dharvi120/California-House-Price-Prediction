@@ -10,6 +10,7 @@ https://california-house-price-prediction-pyfhserhhfmck7cjnjqvxn.streamlit.app/
 📂 GitHub Repository:
 https://github.com/dharvi120/California-House-Price-Prediction
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://california-house-price-prediction-pyfhserhhfmck7cjnjqvxn.streamlit.app/)
 # 🏡 California House Price Prediction
 
 An end-to-end Machine Learning application that predicts California housing prices using the **XGBoost Regression** algorithm. The project demonstrates a complete supervised machine learning workflow—from data preprocessing and feature engineering to model training, evaluation, explainability with SHAP, and deployment through an interactive Streamlit web application.
